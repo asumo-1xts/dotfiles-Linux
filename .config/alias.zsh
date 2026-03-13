@@ -22,8 +22,8 @@ abbr -S grr="git remote remove origin"
 abbr -S grh="git reset --hard HEAD^"
 abbr -S grho="git reset --hard origin"
 abbr -S grs="git reset --soft HEAD^"
-abbr -S gssa="git stash apply"
 abbr -S gss="git stash -u"
+abbr -S gssa="git stash apply"
 abbr -S gst="git status"
 clear
 # GH CLI
