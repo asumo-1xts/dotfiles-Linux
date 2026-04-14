@@ -1,4 +1,4 @@
-# dotfiles
+# dotfiles-Linux
 
 My dotfiles at Debian 13 on WSL2.
 
