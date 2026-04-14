@@ -1,4 +1,4 @@
-# dotfiles-Linux
+# dotfiles-Linux [![The Unlicense](https://img.shields.io/badge/License-The_Unlicense-green.svg)](/LICENSE)
 
 My dotfiles at Debian 13 on WSL2.
 
