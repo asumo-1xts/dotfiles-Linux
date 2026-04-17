@@ -39,9 +39,6 @@ mise trust && mise install
 
 cargo install sheldon
 
-curl -fsSL https://raw.githubusercontent.com/unhappychoice/gitlogue/main/install.sh | zsh
-
-zsh script/install-wslu.sh
 zsh script/tree.sh
 
 exec $SHELL -l
@@ -56,7 +53,6 @@ exec $SHELL -l
 ├── package-lock.json
 ├── packages.ini
 └── script
-    ├── install-wslu.sh
     ├── plot-tree.sh
     └── symbolic-link.sh
 
