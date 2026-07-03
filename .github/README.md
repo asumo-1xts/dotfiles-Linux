@@ -15,8 +15,25 @@ exec $SHELL -l
 
 ### Clone this repository as `dotfiles`
 
+#### Install Git
+
 ```shell
-sudo apt install -y git
+sudo apt install git
+```
+
+#### Set SSH key in `~/.ssh/config`
+
+```
+Host github
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/github
+  IdentitiesOnly yes
+```
+
+#### Run
+
+```shell
 cd ~
 git clone git@github.com:asumo-1xts/dotfiles-Linux.git dotfiles
 cd ~/dotfiles
