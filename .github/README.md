@@ -42,7 +42,7 @@ cd ~/dotfiles
 ### Install tools and make symbolic-links
 
 ```shell
-sudo apt install -y ${(f)"$(<packages.ini)"}
+sudo zsh/install.sh
 curl https://mise.run | zsh
 
 zsh script/symbolic-link.sh
