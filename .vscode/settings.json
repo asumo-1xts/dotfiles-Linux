@@ -1,0 +1,6 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "oxc.path.node": "~/.local/share/mise/installs/node/25.4.0/bin/node"
+}
