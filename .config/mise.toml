@@ -1,8 +1,6 @@
 [tools]
 rust = "latest"
 uv = "latest"
-node = "latest"
-npm = "latest"
 yarn = "4.9.2"
 
 [shell_alias]
