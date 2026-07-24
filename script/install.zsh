@@ -13,6 +13,11 @@ sudo apt install graphviz -y
 sudo apt install pkg-config -y
 sudo apt install libssl-dev -y
 
+# === Node.js ===
+sudo apt install nodejs -y
+sudo apt install npm -y
+sudo npm install oxfmt --global
+
 # === Network ===
 sudo apt install curl -y
 sudo apt install wget -y

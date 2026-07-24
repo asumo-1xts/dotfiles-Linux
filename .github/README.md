@@ -39,3 +39,14 @@ cargo install sheldon
 
 exec $SHELL -l
 ```
+
+### How to operate Node.js for Oxfmt
+
+不自由なくグローバルにOxfmtを使うために、Node.jsとnpmはaptでインストールする。
+
+また、Windows側のNPMを無効にするため、`/etc/wsl.conf`に以下を追記する。
+
+```ini
+[interop]
+appendWindowsPath = false
+```
