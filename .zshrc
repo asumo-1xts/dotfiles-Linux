@@ -10,3 +10,5 @@ eval "$(uvx --generate-shell-completion zsh)"
 
 source ~/dotfiles/.config/alias.zsh
 source ~/dotfiles/.config/functions.zsh
+
+# export GPG_TTY=$(tty)
