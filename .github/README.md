@@ -2,7 +2,7 @@
 
 My dotfiles at on WSL2.
 
-## Recovery with `script`
+## Recovery with `scripts/`
 
 ### Install ssh-keygen and Git
 
@@ -42,9 +42,9 @@ cd ~/dotfiles
 ### Install tools and make symbolic-links
 
 ```shell
-zsh script/install.zsh
-curl https://mise.run | zsh
-zsh script/symbolic-link.sh
+sh scripts/install.sh
+curl https://mise.run | sh
+sh scripts/symbolic-link.sh
 exec $SHELL -l
 ```
 
