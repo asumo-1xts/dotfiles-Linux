@@ -1,6 +1,6 @@
 # dotfiles-Linux [![The Unlicense](https://img.shields.io/badge/License-The_Unlicense-green.svg)](/LICENSE)
 
-My dotfiles at on WSL2.
+My dotfiles at Debian 13 on WSL2.
 
 ## Recovery with `scripts/`
 
